@@ -1,437 +1,510 @@
-div {
-    height: 300px;
-    width: 50%;
-    
-    
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+address, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
 }
-nav{
+.page-container{
+    width: 100%;
     height: auto;
-    width: auto;
-    
 }
-.nav-coatofarms{
-
-    display: center;
-    align-items:center ;
-    justify-content:left ;
-    float: left;
-    position: relative;
-    bottom: 5px;
-    right: 5px;
-    
-    }
-
-    .nav-flag{
-        display: right;
-        align-items: right;
-        justify-content: space-between;
-        float: right;
-        position: relative;
-        bottom: 37px;
-        left: 177px;
-        /*add padding*/
-        /*add background colour*/
-    
-        }
-.page-container-welcome{
+.gov-heading{
+    width: 100%;
+    background-color: #E9EAEE;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    float: right;
-    position: relative;
-    bottom: 367px;
-    right: 371px;
-    padding: auto;
-    /*add padding*/
 }
-
-nav{
+.gov-coat{
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    width: 25px;
+    height: relative;
+}
+.gov-heading h5{
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 10PX;
+}
+.gov-map{
+    margin-left: 60%;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    width: 50px;
+    height: 25px;
+}
+.head-label{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    }
-    .navigation-links{
-        list-style-type: none;
-        display: flex;
-    }
-    /*adjust padding*/
-    .nav-item{
-        padding: auto;
-
-    }
-    /*adjust padding, needs general formatting*/
-    .content-first{
-        display: flex;
-        align-items: flex-start;
-        justify-content: left;
-        flex-wrap: wrap;
-        width: 10%;
-    }
-    .content-general-alignment{
-        display: flex;
-        justify-content: space-between;
-    }
-/*Align the "Our Leaders"heading*/
-    .page-container-Our-Leaders{
-        color: #FEE400;
-        position: relative;
-        bottom: 750px;
-        left: 420px;
-        
-    }
-    .agri-gallery{
+}
+.lb{
+    width: 38%;
     display: flex;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: #0A744D;
+}
+.lb-coat{
+    width: 175px;
+    height: 175px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.lb-title{
+    display: block;
+}
+.min-white{
+    padding-top: 25px;
+    color: white;
+}
+.lb-title h1{
+    display: block;
+    width: 100%;
+    font-size: 42px;
+}
+.welcome{
+    width: 62%;
+    background-color: #ffe600;
+}
+.welcome-img{
+    width: 100%;
+    height: 195px;
+}
+.nav-bar{
+    width: 100%;
+    display: block;
+}
+.nav-bar1 {
+    width: 100%;
+    display: flex;
+}
+.nav-bar1 nav {
+    padding: 12px 24px 12px 24px ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+.nav-bar1 nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.nav-links1 {
+    list-style-type: none;
+    display: flex;
+}
+.top-nav1 input[type=text] {
+    margin-left: 105px;
+    padding-left: 25px;
+    width: 375px;
+    border: none;
+    background-color: #E9EAEE;
+    border-radius: 25px;
+}
+nav ul li a:hover {
+    color: #0A744D;
+    transition: 0.3s;
+    border-bottom: 1.75px solid #0A744D ;
+}
+.nav-bar2{
+    margin-top: 50px;
+    display: flex;
+}
+.nav-bar2 nav {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #d1d1d4;
+}
+.nav-bar2 nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+.nav-links2 {
+    list-style-type: none;
+    display: flex;
+}
+.body-container{
+    width: 100%;
+    height: auto;
+    background-color: #0B574C;
+    margin-top: 50px;
+}
+.doc{
+    padding-top: 55px;
+}
+.doc-row{
+    display: flex;
+    width: 100%;
+}
+.appli-section{
+    width: 350px;
+    display: block;
+}
+#appli-1{
+    margin-left: 15%;
+}
+.app-forms{
+    display: flex;
+}
+.doc-text{
+    display: block;
+}
+.doc-img{
+    width: 55px;
+    height: 65px;
+    padding: 0px 5px 5px 0px;
+}
+.appli-section h3{
+    padding-top: 25px;
+}
+.appli-section p,h3{
+    color: white;
+}
+.leaders img{
+    width: 190px;
+    height: 190px;
+}
+.leaders{
+    width: 100%;
+    display: flex;
+}
+.shaw{
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+.spence{
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+.body h1{
+    padding: 25px 0px 25px 0px ;
+    text-align: center;
+    color: #ffe600;
+}
+.body p{
+    color: white;
+}
+.ministry{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    border-bottom: 3px solid grey;
+    padding-bottom: 25px;
+}
+.label{
+    display: flex;
+    font-size: 24px;
+}
+.label-green label{
+    margin-left: 25px;
+    padding: 5px 8px 5px 8px ;
+    color: white;
+    background-color: #0A744D;
+}
+.label button{
+    margin-left: 80%;
+    padding: 5px 8px 5px 8px ;
+    color: white;
+    background-color: #ffe600;
+    border: none;
+    font-size: 24px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+#slide {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 68%;
+    height: 450px;
+    background-position: auto ;
+    background-size: cover;
+    background-repeat: no repeat;
+    backface-visibility: hidden;
+    animation: slidec 60s linear infinite 0s;
+    animation-duration: 40s;
+    animation-timing-function: ease-in-out;
+    background-image: url('../img/gallery/peach.jpg');
+    object-fit: cover;
+}
+@keyframes slidec {
+    10% {
+        background-image: url('../img/gallery/soil.jpg');
+        object-fit: cover;
     }
+    20% {
+        background-image: url('../img/gallery/fishpond.jpg');
+        object-fit: cover;
+    }
+    30% {
+        background-image: url('../img/gallery/fish.jpg');
+        object-fit: cover;
+    }
+    40% {
+        background-image: url('../img/gallery/chicken.jpg');
+        object-fit: cover;
+    }
+    50% {
+        background-image: url('../img/gallery/chicken2.jpg');
+        object-fit: cover;
+    }
+    60% {
+        background-image: url('../img/gallery/farm.jpg');
+        object-fit: cover;
+    }
+    70% {
+        background-image: url('../img/gallery/plant.jpg');
+        object-fit: contain;
+    }
+    80% {
+        background-image: url('../img/gallery/water.jpg');
+        object-fit: cover;
+    }
+    90% {
+        background-image: url('../img/gallery/sheep.jpg');
+        object-fit: cover;
+    }
+    100% {
+        background-image: url('../img/gallery/shrimp.jpg');
+        object-fit: cover;
+    }
+}
+.articles{
+    width: 100%;
+    margin-top: 25px;
+    display: block;
+}
+.art-row1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: flex;
+}
+.art-row1 img{
+    width: 50%;
+    height: auto;
+}
+.opp{
+    padding-right: 12%;
+    text-align: center;
+}
+#opp-img{
+    width: 350px;
+    height: auto;
+}
+.art-row1 .bene img{
+    width: 350px;
+    height: auto;
+}
 
-    p.name_one{
-        position: relative;
-        bottom: 930px;
-        right: 270px;
-        color:white
-    }
+.art-row2{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    display: flex;
+}
+.art-row2 img{
+    width: 50%;
+    height: auto;
 
-    p.name_two{
-        position: relative;
-        bottom: 930px;
-        right: 730px;
-        color: white;
-    }
+}
+#food-img{
+    width:350px;
+    height:263px
+}
+#road-img{
+    width: 350px;
+    height: auto;
+}
+#mess-img{
+    width:350px;
+    height:263px
+}
+.road{
+    padding-right: 15px;
+}
+.mess{
+    padding-right: 15px;
+}
+.food{
+    padding-right: 15px;
+}
+.art-row1{
+    padding-bottom: 15px;
+}
+.articles {
+    padding-bottom: 35px;
+}
 
-    h3.moaaf_top_pg{
-        font-size: 12px;
-        position: relative;
-        bottom: 0px;
-        right: 720px;
-    }
+.articles a{
+    color: white;
+}
 
-    p.goj_near_flag{
-        font-size: 12px;
-        position: relative;
-        bottom: 340px;
-        left: 980px;
-    }
-    a.navigation-items{
-        position: relative;
-        bottom: 450px;
-        left: 10px;
-        color: black;
-    }
-    a.navigation-items-1{
-        position: relative;
-        bottom: 450px;
-        left: 100px;
-        color: black;
-    }
+iframe{
+    margin-left: 23%;
+    width: 750px;
+    height:520px;
+}
+.agen-label{
+    display: flex;
+    font-size: 24px;
+}
+.label-green label{
+    margin-left: 25px;
+    padding: 5px 8px 5px 8px ;
+    color: white;
+    background-color: #0A744D;
+}
+.agen-label button{
+    margin-left: 70%;
+    padding: 5px 8px 5px 8px ;
+    color: white;
+    background-color: #ffe600;
+    border: none;
+    font-size: 24px;
+}
+.page-nav{
+    padding-left: 45%;
+    text-align: center;
+}
+span button{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background-color: #bf7417;
+    border-radius: 15px;
+    border:none;
+}
+span{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 5px;
+}
+.part-agencies{
+    margin:auto;
+    width: 75%;
+    display: flex;
+    padding-bottom: 25px;
+}
+.agencies{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding-top: 25px;
+}
+.agencies a{
+    color: white;
+    text-decoration: none;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.footer .address{
+    margin-left: 15px;
+    display: block;
+}
+.footer .open-hours{
+    margin-left: 175px;
+}
+.open-hours a{
+    display: block;
+}
+.open-hours h3{
+    margin-bottom: 10px;
+}
+.fb {
+    font-style: bold;
+    display: flex;
+}
 
-    img.imgcoathing{
-        position: relative;
-        bottom: 264px;
-        right: 0px;
-        
-    }
-
-    p.mof{
-        font-size: 30px;
-        position: relative;
-        bottom: 330px;
-        left: 170px;
-        color:white;
-        padding: auto;
-    }
-
-    p.anf{
-        font-size: 40px;
-        position: relative;
-        bottom: 372px;
-        left: 140px;
-        padding: auto;
-    }
-
-    a.navigation-items-2{
-        position: relative;
-        bottom: 450px;
-        left: 200px;
-        color: black;
-    }
-
-    a.navigation-items-3{
-        position: relative;
-        bottom: 450px;
-        left: 300px;
-        color: black;
-    }
-
-    a.navigation-items-4{
-        position: relative;
-        bottom: 450px;
-        left: 400px;
-        color: black;
-    }
-
-    a.navigation-items-5{
-        position: relative;
-        bottom: 450px;
-        right: 10px;
-        color: black;
-    }
-
-    a.navigation-items-6{
-        position: relative;
-        bottom: 450px;
-        left: 100px;
-        color: black;
-    }
-
-    a.navigation-items-7{
-        position: relative;
-        bottom: 450px;
-        left: 200px;
-        color: black;
-    }
-
-    a.navigation-items-8{
-        position: relative;
-        bottom: 450px;
-        left: 300px;
-        color: black;
-    }
-
-    a.navigation-items-9{
-        position: relative;
-        bottom: 450px;
-        left: 400px;
-        color: black;
-    }
-
-    img.img_name1{
-    
-        padding-bottom: 90px;
-        padding-top: 0px;
-        padding-left: px;
-        position: relative;
-        bottom: 990px;
-        left: 200px;
-    }
-
-    img.img_name2{
-        padding-left: 0;
-        position: relative;
-        bottom: 990px;
-        right: 300px;
-    }
-
-    .content-first_1{
-        position:relative ;
-        top: 3000px;
-    }
-
-    p.words{
-        position: relative;
-        bottom: 1000px;
-        left: 100px;
-        color: white;
-    }
-
-    p.tellfirst{
-        position: relative;
-        top: 2900px;
-    }
-
-    h1.themin{
-        top:#0b574c ;
-        color:#FEE400;
-        position: relative;
-        bottom: 1000px;
-        left: 390px;
-    }
-
-    p.searchfor{
-            position: relative;
-            top: 2900px;
-    }
-
-    p.gal{
-        position: relative;
-        bottom: 1000px;
-        left: 10px;
-        font-size:23px ;
-    }
-
-    a.theview{
-        position: relative;
-        bottom: 1000px;
-        right: 10px;
-        color: #FEE400;
-        font-size: 23px;
-    }
-
-    img.chick{
-        position: relative;
-        bottom: 970px;
-    }
-
-    img.bucketfish{
-        position: relative;
-        bottom: 970px;
-        left: 3px;
-    }
-
-    img.pondofish{
-        position: relative;
-        bottom: 970px;
-        left: 5px;
-    }
-
-    img.peachthing{
-        position: relative;
-        bottom: 970px;
-        left: 3px;
-    }
-
-    img.shrimpy{
-        position: relative;
-        bottom: 970px;
-        left: 0px;
-    }
-
-    img.farmerjoe{
-        position: relative;
-        bottom: 970px;
-        left: 3px;
-    }
-
-    .oppthing{
-        position: relative;
-        bottom: px;
-        left: 300px;
-        color:white;
-    }
-
-    .benefits{
-        position: relative;
-        bottom: px;
-        left: 30px;
-        color:white;
-    }
-
-    .road{
-        position: relative;
-        bottom: 320px;
-        left: 200px;
-        color:white;
-    }
-
-    .foodthing{
-        position: relative;
-        bottom: 320px;
-        left: 80px;
-        color:white;
-    }
-
-    .message{
-        position: relative;
-        bottom: 320px;
-        left: 20px;
-        color:white;
-    }
-
-    .tube{
-        position: relative;
-        bottom: 500px;
-        left: 500px;
-        color:white;
-    }
-
-    .vid1{
-        position: relative;
-        bottom: 550px;
-        color:white;
-    }
-
-    p.port{
-        position: relative;
-        bottom: 130px;
-        color:#FEE400;
-    }
-
-    a.portview{
-        position: relative;
-        bottom: 100px;
-        left: 740px;
-    }
-
-    body{
-        background-color: #0b574c;
-        height: auto;
-        font-family: 'Lato', sans-serif;
-    }
-
-    table.ele{
-        position: relative;
-        bottom: 5270px;
-        left: 700px;
-    }
-
-    div.open{
-        color: white;
-        font-size: 20px;
-    }
-
-    div.open1{
-        color: white;
-        font-size: 20px;
-    }
-
-    div.open2{
-        color: white;
-        font-size: 20px;
-    }
-
-    div.open4{
-        color: white;
-        font-size: 20px;
-    }
-
-    p.nums{
-        position: relative;
-        top: 1000px;
-        left: 700px;
-        font-size: 20px;
-    }
-
-    p.article{
-        color: white;
-    }
-
-    a.artview{
-        color: white;
-    }
-
-    iframe.youtuby{
-        position: relative;
-        bottom: 500px;
-        left: 500px;
-    }
-
-    iframe.youube{
-        position: relative;
-        bottom: 4500px;
-        left: 500px;
-    }
-
-    a.j4hc{
-        color: white;
-    }
-
-    a.jascra{
-        color: white;
-    }
-
-    a.jas{
-        color:white;
-    }
-
-    a.jvb{
-        color: white;
-    }
+.ig {
+    font-style: bold;
+    display: flex;
+}
+.footer .other-links{
+    margin-left: 200px;
+}
+.footer h5{
+    color: #444;
+    font-style: bold;
+    text-align: center;
+}
+.address1{
+    display: inline-block;
+}
+.address2{
+    padding-left: 10px ;
+    display: inline-block;
+}
+.address3{
+    padding-left: 10px ;
+    display: inline-block;
+}
+.rowuno{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+.rowdos{
+    display: block;
+}
+.other-links h3{
+    margin-bottom: 10px;
+}
+.address h3{
+    margin-bottom: 10px;
+}
+.address a{
+    margin-bottom: 5px;
+}
+.open-hours a{
+    margin-bottom: 5px
+}
+.footer_coat{
+    padding-left: 152px;
+    width: 25px;
+    height: auto;
+}
+.footer .other-links2{
+    margin-left: 175px;
+}
+.other-links2 h3{
+    margin-bottom: 10px;
+}
+.social_icons{
+    color:  #444;
+    padding-left: 55px;
+}
