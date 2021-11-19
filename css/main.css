@@ -324,11 +324,11 @@ button a{
     text-align: center;
 }
 #opp-img{
-    width: 350px;
+    width: 100%;
     height: auto;
 }
 .art-row1 .bene img{
-    width: 350px;
+    width: 100%;
     height: auto;
 }
 
