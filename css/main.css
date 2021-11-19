@@ -427,9 +427,15 @@ span{
     margin: auto;
     width: 50%;
     height: auto;
+    display: flex;
     padding-top: 25px;
     padding: 5%;
     padding-right: 5%;
+}
+.agh3{
+    padding-right: 3%;
+    padding-left: 3%;
+    text-align: center;
 }
 .agencies a{
     color: white;
