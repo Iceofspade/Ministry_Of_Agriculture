@@ -334,26 +334,17 @@ button a{
 
 .art-row2{
     margin: auto;
-    width: 75%;
+    width: 100%;
     text-align: center;
     display: flex;
 }
 .art-row2 img{
-    width: 50%;
+    width: 100%;
     height: auto;
 
 }
-#food-img{
-    width:350px;
-    height:263px
-}
 #road-img{
-    width: 350px;
-    height: auto;
-}
-#mess-img{
-    width:350px;
-    height:263px
+    padding-left: 2%;
 }
 .road{
     padding-right: 15px;
@@ -374,14 +365,20 @@ button a{
 .articles a{
     color: white;
 }
-
+.videos{
+    margin: auto;
+    width: 100%;
+}
 .vid-emb{
     margin: auto;
     width: 50%;
     height: auto;
 }
-
-
+iframe{
+    margin: auto;
+    width: 100%;
+    height: 365px;
+}
 
 .agen-label{
     display: flex;
