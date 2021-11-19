@@ -304,16 +304,21 @@ button a{
     margin-top: 25px;
     display: block;
 }
-.art-row1{
+.art-box{
     margin: auto;
     width: 50%;
+}
+.art-row1{
+    margin: auto;
+    width: 100%;
     text-align: center;
     display: flex;
 }
 .art-row1 img{
+    margin: auto;
     width: 50%;
-    height: auto;
 }
+
 .opp{
     padding-right: 12%;
     text-align: center;
@@ -370,11 +375,14 @@ button a{
     color: white;
 }
 
-iframe{
-    margin-left: 23%;
-    width: 750px;
-    height:520px;
+.vid-emb{
+    margin: auto;
+    width: 50%;
+    height: auto;
 }
+
+
+
 .agen-label{
     display: flex;
     font-size: 24px;
@@ -394,17 +402,20 @@ iframe{
     font-size: 24px;
 }
 .page-nav{
-    padding-left: 45%;
-    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: auto;
 }
 span button{
+    width: 50%;
     color: white;
-    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     background-color: #bf7417;
     border-radius: 15px;
     border:none;
 }
 span{
+    
     display: flex;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -412,99 +423,67 @@ span{
 }
 .part-agencies{
     margin:auto;
-    width: 75%;
+    width: 100%;
     display: flex;
-    padding-bottom: 25px;
 }
 .agencies{
     margin: auto;
     width: 50%;
     height: auto;
     padding-top: 25px;
+    padding: 5%;
+    padding-right: 5%;
 }
 .agencies a{
     color: white;
     text-decoration: none;
 }
-.footer a{
+.footer{
+    margin: auto;
+    width: 100%;
+}
+.rowuno{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.address{
+    margin: auto;
+    width: 24%;
+    padding-left: 5%;
+}
+.open-hours{
+    margin: auto;
+    width: 24%;
+}
+.other-links{
+    margin: auto;
+    width: 24%;
+}
+.other-links2{
+    margin: auto;
+    width: 24%;
+}
+.other-links{
+    margin: auto;
+    width: 24%;
+}
+.footer_coat{
+    width: 8%;
+    height: auto;
+    height: auto;
+}
+.social_icons {
+    display: flex;
+}
+.social_icons a{
+    color:#222;
+    padding-right: 5px;
+}
+.footer .other-links2 a{
     color: black;
     text-decoration: none;
     list-style-type: none;
     display: flex;
-}
-.footer .address{
-    margin-left: 15px;
-    display: block;
-}
-.footer .open-hours{
-    margin-left: 175px;
-}
-.open-hours a{
-    display: block;
-}
-.open-hours h3{
-    margin-bottom: 10px;
-}
-.fb {
-    font-style: bold;
-    display: flex;
-}
-
-.ig {
-    font-style: bold;
-    display: flex;
-}
-.footer .other-links{
-    margin-left: 200px;
-}
-.footer h5{
-    color: #444;
-    font-style: bold;
-    text-align: center;
-}
-.address1{
-    display: inline-block;
-}
-.address2{
-    padding-left: 10px ;
-    display: inline-block;
-}
-.address3{
-    padding-left: 10px ;
-    display: inline-block;
-}
-.rowuno{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-}
-.rowdos{
-    display: block;
-}
-.other-links h3{
-    margin-bottom: 10px;
-}
-.address h3{
-    margin-bottom: 10px;
-}
-.address a{
-    margin-bottom: 5px;
-}
-.open-hours a{
-    margin-bottom: 5px
-}
-.footer_coat{
-    padding-left: 152px;
-    width: 25px;
-    height: auto;
-}
-.footer .other-links2{
-    margin-left: 175px;
-}
-.other-links2 h3{
-    margin-bottom: 10px;
-}
-.social_icons{
-    color:  #444;
-    padding-left: 55px;
 }
