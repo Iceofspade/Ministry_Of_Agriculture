@@ -30,23 +30,33 @@ time, mark, audio, video, button {
     display: flex;
 }
 .gov-coat{
+    width: 5%;
+    height: auto;
+}
+.gov-right{
+    display: flex;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: auto;
+    padding-left: 82%;
+}
+.gov-left{
     padding-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 5px;
-    width: 25px;
-    height: relative;
+    display: flex;
+    width: 50%;
+    height: auto;
 }
 .gov-heading h5{
-    padding-left: 5px;
-    padding-top: 7px;
-    padding-bottom: 10PX;
+    padding-top: 8px;
+    padding-left: 3px;
+}
+.gov-heading img{
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .gov-map{
-    margin-left: 60%;
-    padding-right: 5px;
-    padding-top: 3px;
-    padding-bottom: 5px;
-    width: 50px;
+    width: 10%;
     height: 25px;
 }
 .head-label{
