@@ -24,7 +24,7 @@ were government bodies and/or agricultural ministries.
 5.https://www.fdacs.gov/ - Florida Department of Agriculture
 6.https://www.mns.gov.jm/- MNS Jamaica
 
-~COLOR SCHEME~
+`COLOR SCHEME`
 
 Color scheme selection was done so by assessing not only the colors used on the previous version of the site but also sites with 
 similar natue and then it was taken into consideration what they all lacked as it relates to the focus of the site. As agriculture is an 
