@@ -89,6 +89,7 @@ time, mark, audio, video, button {
 .nav-bar{
     width: 100%;
     display: block;
+    background-color: white;
 }
 .nav-bar1 {
     width: 100%;
