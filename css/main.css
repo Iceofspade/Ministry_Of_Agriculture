@@ -254,6 +254,7 @@ button a{
     animation-timing-function: ease-in-out;
     background-image: url('../img/gallery/peach.jpg');
     object-fit: cover;
+    border-radius: 15px;
 }
 @keyframes slidec {
     10% {
@@ -315,6 +316,7 @@ button a{
 .art-row1 img{
     margin: auto;
     width: 50%;
+    border-radius: 15px;
 }
 
 .opp{
@@ -324,10 +326,12 @@ button a{
 #opp-img{
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 .art-row1 .bene img{
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 .art-row2{
@@ -339,10 +343,12 @@ button a{
 .art-row2 img{
     width: 100%;
     height: auto;
+    border-radius: 15px;
 
 }
 #road-img{
     padding-left: 2%;
+    border-radius: 15px;
 }
 .road{
     padding-right: 15px;
