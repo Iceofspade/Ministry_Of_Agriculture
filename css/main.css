@@ -23,6 +23,7 @@ time, mark, audio, video, button {
 .page-container{
     width: 100%;
     height: auto;
+    background-color: #0B574C;
 }
 .gov-heading{
     width: 100%;
@@ -148,12 +149,6 @@ nav ul li a:hover {
 .nav-links2 {
     list-style-type: none;
     display: flex;
-}
-.body-container{
-    width: 100%;
-    height: auto;
-    background-color: #0B574C;
-    margin-top: 50px;
 }
 .doc{
     padding-top: 55px;
@@ -445,6 +440,8 @@ span{
 .footer{
     margin: auto;
     width: 100%;
+    background-color: #d1d1d4;
+    padding-top: 15px;
 }
 .rowuno{
     margin: auto;
